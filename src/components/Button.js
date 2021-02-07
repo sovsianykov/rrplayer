@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 
 function MyButton({ onClick, children }) {
     return (
-        <button
+        <button className='btn'
             onClick={onClick}
 
         >

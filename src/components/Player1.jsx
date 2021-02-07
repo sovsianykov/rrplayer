@@ -1,4 +1,4 @@
-import React, {useState,useEffect} from "react";
+import React, {useState} from "react";
 import MyButton from "./Button";
 
 
@@ -33,7 +33,7 @@ import flakes from '../assetts/sounds/theLand/11 flakes_1.mp3'
 function Player1() {
     const [initPlaylist, setPlaylist] = useState([])
 
-    const [playTracks, setPlayTracks] = useState([])
+    // const [playTracks, setPlayTracks] = useState([])
 
 
 

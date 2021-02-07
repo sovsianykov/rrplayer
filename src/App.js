@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import AlbumHolder from "./components/AlbubHolder";
+import React  from 'react';
+
 import Player1 from "./components/Player1";
 
 

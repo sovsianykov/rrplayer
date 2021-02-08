@@ -94,7 +94,7 @@ function Player1() {
             />
           </div>
           <MyButton onClick={getPlpay} id="play">
-            play List
+            play the List
           </MyButton>
           <MyButton onClick={Pause} id="pause">
             pause

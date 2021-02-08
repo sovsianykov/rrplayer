@@ -2,7 +2,7 @@ import React from "react";
 import Button from "./Button";
 
 
-function AlbumHolder({Playlist, id, onClick }) {
+function AlbumHolder({Playlist, onClick }) {
     return (
         <>
             <div className='playlist' >

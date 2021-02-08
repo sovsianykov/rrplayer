@@ -1,18 +1,28 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  background: #451313;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-hi,h2 {
+h1,
+h2,
+h3,
+h4 {
   text-align: center;
+}
+h4 {
+  border: 2px solid #ddb875;
+  border-radius: 5px;
+  margin: 5px 0;
+  padding: 5px;
 }
 
 .container {
@@ -20,50 +30,48 @@ hi,h2 {
   color: #ddb875;
   margin: 0 auto;
   max-width: 1100px;
-  //display: flex;
-  //flex-direction: column;
-  //align-items: center;
-  //justify-content: center;
-     .pl {
+  height: 100vh;
+  padding: 40px;
 
-       //width: 300px;
-       .imgHolder {
-         width: 100%;
-         outline: hidden;
-         img {
-           display: block;
-           width: 100%;
-         }
+  .pl {
+    .main {
+      border: 2px solid #ddb875;
+      border-radius: 5px;
+      margin: 5px 0;
+      padding: 5px;
 
-       }
-       ul {
-         list-style: none;
-
-         li {
-
-         }
-       }
-     }
+      .imgHolder {
+        width: 100%;
+        outline: hidden;
+        img {
+          display: block;
+          width: 100%;
+        }
+      }
+    }
+  }
 }
-.btn {
+.btn,
+span {
   width: 100%;
-  //padding: 3px 5px;
-  text-align: center;
-  height: 30px;
+  text-align: left;
+  padding-left: 10%;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+  height: 40px;
   border: none;
   border-radius: 5px;
   background: #541b03;
-  color: #efece1;
-  box-shadow: 0 0 2px #05052f;
-  transition: .5s;
-  //font-size: 2px;
+  color: #ecd098;
+  box-shadow: 0 0 2px #1d0901;
   cursor: pointer;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 2px;
+  margin-bottom: 2px;
   margin-right: 5px;
-
+  transition: 1s ease-in-out;
 
   &:hover {
+    padding-left: 40%;
     border: none;
     background: #730505;
     box-shadow: 0 0 3px #4f1a18;
@@ -71,18 +79,15 @@ hi,h2 {
     color: white;
   }
 }
+
 .playlist {
   border: 2px solid #ddb875;
   border-radius: 5px;
   margin: 5px 0;
   padding: 5px;
-
 }
-audio{
-  filter:  saturate(70%)  contrast(99%) invert(100%);
+audio {
+  filter: saturate(70%) contrast(99%) invert(100%);
   width: 100%;
   height: 25px;
-
 }
-
-
